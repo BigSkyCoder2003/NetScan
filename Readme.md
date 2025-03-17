@@ -1,10 +1,3 @@
-# NetScan 
-- requires Scapy package
-- built with python version 3.12.3
-
-NetScan is used to scan a local wifi network for devices, and returns basic ARP information about them. additionally, the program makes a call to the [Macvendors API](https://macvendors.com/api) 
-
-
 # NetScan
 
 NetScan is a network scanning tool built with Python and Scapy. It scans a specified network range, identifies devices, and displays key information such as IP address, MAC address, hostname, and vendor. the vendor is retrieved using the the [Macvendors API](https://macvendors.com/api).
